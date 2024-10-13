@@ -1,28 +1,91 @@
 /* Custom Chat Styles */
 
-/* Chat Background */
-.vfrc-chat--dialog {
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@400&display=swap');
+
+/* General Styles */
+.voiceflow-chat {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Launcher */
+.vfrc-launcher {
     background-color: #1A1A1A; /* Chat background */
 }
 
-/* Bot Reply */
-.vfrc-system-response {
-    background-color: #D4AF37; /* Bot reply */
-    color: #1A1A1A; /* Text color for better contrast */
+/* Header & Title */
+.vfrc-header {
+    background-color: #1A1A1A; /* Chat background */
 }
 
-/* Assistant Info Title */
+.vfrc-header--title {
+    font-family: 'Montserrat', sans-serif;
+    color: #F7F7F7; /* Assistant info title */
+}
+
+/* Assistant Info */
+.vfrc-assistant-info {
+    background-color: #1A1A1A; /* Chat background */
+}
+
 .vfrc-assistant-info--title {
     color: #F7F7F7; /* Assistant info title */
 }
 
-/* Assistant Info Description */
 .vfrc-assistant-info--description {
     color: #E0E0E0; /* Assistant info description */
 }
 
+/* Message Colors */
+.vfrc-system-response {
+    background-color: #D4AF37; /* Bot reply */
+    color: #1A1A1A; /* Text color */
+}
+
+.vfrc-user-response {
+    background-color: #1A1A1A; /* User message background */
+    color: #F7F7F7; /* Text color */
+}
+
+/* Card Colors */
+.vfrc-card--content {
+    background-color: #1A1A1A; /* Card background */
+    color: #F7F7F7; /* Text color */
+}
+
+.vfrc-card--header {
+    color: #D4AF37; /* Card header color */
+}
+
+.vfrc-card--description {
+    color: #E0E0E0; /* Card description color */
+}
+
+/* Button Styling */
+.vfrc-button {
+    background-color: #D4AF37; /* Button background */
+    color: #1A1A1A; /* Button text color */
+}
+
+.vfrc-carousel--button {
+    background-color: #C5B358; /* Carousel button color */
+    color: #1A1A1A; /* Carousel button text color */
+}
+
+/* End Chat Button */
+.vfrc-prompt .vfrc-button {
+    background-color: #C5B358; /* End chat button color */
+    color: #1A1A1A; /* Button text color */
+}
+
 /* Footer */
 .vf-footer {
-    background-color: #C5B358; /* Footer */
-    color: #1A1A1A; /* Text color for better contrast */
+    background-color: #C5B358; /* Footer color */
+    color: #1A1A1A; /* Footer text color */
+}
+
+/* Input Field */
+.vfrc-input {
+    background-color: #1A1A1A; /* Input background */
+    color: #F7F7F7; /* Input text color */
 }
