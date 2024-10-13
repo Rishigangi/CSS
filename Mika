@@ -1,0 +1,28 @@
+/* Custom Chat Styles */
+
+/* Chat Background */
+.vf-chat {
+    background-color: #1A1A1A; /* Chat background */
+}
+
+/* Bot Reply */
+.vf-message--bot {
+    background-color: #D4AF37; /* Bot reply */
+    color: #1A1A1A; /* Text color for better contrast */
+}
+
+/* Assistant Info Title */
+.vf-message--assistant .vf-message__title {
+    color: #F7F7F7; /* Assistant info title */
+}
+
+/* Assistant Info Description */
+.vf-message--assistant .vf-message__description {
+    color: #E0E0E0; /* Assistant info description */
+}
+
+/* Footer */
+.vf-chat-footer {
+    background-color: #C5B358; /* Footer */
+    color: #1A1A1A; /* Text color for better contrast */
+}
